@@ -1,6 +1,0 @@
-function quantised=quantise(I, scale)
-% Arguments:
-%   I: input image
-%   scale: factor of downsampling
-% Returns: 
-%   quantised:
