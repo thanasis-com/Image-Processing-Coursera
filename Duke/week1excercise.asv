@@ -1,0 +1,10 @@
+% read an image
+I=imread('Lenna.png');
+I=I(:,:,3);
+imshow(I)
+
+I=quantise(I);
+
+imshow
+
+

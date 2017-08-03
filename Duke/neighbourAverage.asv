@@ -1,0 +1,35 @@
+function averaged=neighbourAverage(I, neighbours)
+% Arguments:
+%   I: input image
+%   neighbours: the size of the neighbourhood
+% Returns: 
+%   averaged: the original image where each pixel's value is equal
+%               to the average of its neighbouring pixels
+
+[n, m]=size(I);
+
+averaged=zeros(n, m);
+
+for i=1:n
+    for j=1:m
+        %for each pixel construct distance map
+        buffer=[];
+        for k=1:n
+            for l=1:m
+                myDist=sqrt((l-j)^2+(k-i)^2);
+                if myDist<=sqrt(neighbours-1)
+                    buffer=append
+            end
+        end
+        
+        
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
