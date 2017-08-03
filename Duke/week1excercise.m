@@ -13,3 +13,12 @@ averaged=neighbourAverage(I, 5);
 
 figure;
 imshow(averaged);
+
+imshow(imrotate(I, 45));
+
+
+downsampled=averageDownsampling(I, 7);
+
+figure;
+imshow(downsampled);
+
